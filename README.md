@@ -2,7 +2,7 @@
 
 ## What is Git?
 - Git is a distributed version control system used for tracking changes in source code during software development. 
-- It allows multiple developers to collaborate, manage different versions of a project, and maintain a history of changes![alt text](image.png). 
+- It allows multiple developers to collaborate, manage different versions of a project, and maintain a history of changes!. 
 - Git ensures efficiency, reliability, and flexibility in software development workflows.
 
 ## Setup Git
