@@ -7,7 +7,7 @@
 
 ## Commands used:
 
-### `git init`
+### 1. `git init`
 - Initializes a new Git repository in the current directory. 
 - It creates a hidden .git folder that stores all version control data.
 
@@ -17,7 +17,8 @@ git init
 
 ![init](init.png)
 
-### `git add filename`
+
+### 2. `git add filename`
 - Stages a specific file to be included in the next commit.
 - Staging means marking the file for tracking changes.
 
@@ -38,7 +39,8 @@ git add file1_name.txt file2_name.txt
 git add .
 ```
 
-### `git commit -m "message"`
+
+### 3. `git commit -m "message"`
 - Commits the staged changes with a descriptive message. 
 - A commit saves the changes in the repository’s history.
 
@@ -48,7 +50,9 @@ git commit -m "Initial commit with file1.txt and file2.txt"
 
 ![commit](commit.png)
 
-### `git branch`
+
+
+### 4. `git branch`
 - Displays all branches in the repository. 
 - The currently checked-out branch is marked with an asterisk (*).
 - Branches allow you to work on different features without affecting the main code.
@@ -58,6 +62,7 @@ git branch
 ```
 
 ![branch](branch.png)
+
 
 #### `git branch branch-name`
 - Creates a new branch without switching to it.
@@ -77,7 +82,8 @@ Deletes a branch if it has been merged.
 git branch -d branch-name
 ```
 
-### `git checkout branch-name`
+
+### 5. `git checkout branch-name`
 - Switches from the current branch to the specified branch. 
 - This is used to move between branches.
 
@@ -87,6 +93,7 @@ git checkout branch-name
 
 ![checkout](checkout.png)
 
+
 #### `git checkout -b branch-name`
 - Creates a new branch and switches to it in one step. 
 
@@ -94,7 +101,8 @@ git checkout branch-name
 git checkout -b branch-name
 ```
 
-### `git merge branch-name`
+
+### 6. `git merge branch-name`
 - Merges the specified branch into the current branch. 
 - This incorporates the changes from another branch into the current one.
 
