@@ -15,19 +15,23 @@
 
 ![step1](step1.png)
 
+
 #### 2. Create and Switch to a New Branch:
 
 ![feature-branch](feature-branch.png)
 
+
 #### 3.  Modify the Same File in master branch:
 
 ![master-branch](master-branch.png)
+
 
 #### 4. Merge feature-branch into master (Creating a Conflict):
 
 ![merge-conflict](merge-conflict.png)
 
 -This creates a merge conflict.
+
 
 #### 5. Identify and Resolve the Conflict:
 
@@ -46,6 +50,7 @@
 ##### Manually edit the file to resolve the conflict:
 
 ![resolve-conflict](resolve-conflict.png)
+
 
 #### 5. Mark the Conflict as Resolved and Complete the Merge
 
